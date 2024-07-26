@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a152115c7b64b7f606824a3a2d5b6f26 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a152115c7b64b7f606824a3a2d5b6f26" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a152115c7b64b7f606824a3a2d5b6f26 = L.map(
+                "map_a152115c7b64b7f606824a3a2d5b6f26",
+                {
+                    center: [39.558707, -87.6917215],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d87229b019929cc0df7ee61b288eaa3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5d87229b019929cc0df7ee61b288eaa3.addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+            var marker_25f957edcdc2ad47393b12d09138d122 = L.marker(
+                [43.65107, -79.347015],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_6cf4cde1c40e34c7fe66fd53872497e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c17e914fd2ca1144e570169723107e7 = $(`<div id="html_4c17e914fd2ca1144e570169723107e7" style="width: 100.0%; height: 100.0%;">Toronto: 1134 students</div>`)[0];
+                popup_6cf4cde1c40e34c7fe66fd53872497e0.setContent(html_4c17e914fd2ca1144e570169723107e7);
+            
+        
+
+        marker_25f957edcdc2ad47393b12d09138d122.bindPopup(popup_6cf4cde1c40e34c7fe66fd53872497e0)
+        ;
+
+        
+    
+    
+            var marker_6c9e0afc9376b06a6cfb586103bc4754 = L.marker(
+                [25.7617, -80.1918],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_075bb7b97a58dc8bd5b7e29f25d1d210 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f56010b38d8add62f3f21dd2454869 = $(`<div id="html_f4f56010b38d8add62f3f21dd2454869" style="width: 100.0%; height: 100.0%;">Miami: 71 students</div>`)[0];
+                popup_075bb7b97a58dc8bd5b7e29f25d1d210.setContent(html_f4f56010b38d8add62f3f21dd2454869);
+            
+        
+
+        marker_6c9e0afc9376b06a6cfb586103bc4754.bindPopup(popup_075bb7b97a58dc8bd5b7e29f25d1d210)
+        ;
+
+        
+    
+    
+            var marker_1194e78f7774937211b8087bcab0a6c1 = L.marker(
+                [40.6687, -74.1143],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_5100ac19b083b4f35b47a41d56133c37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccd786fe54fd7a25a14a6133cf4e800a = $(`<div id="html_ccd786fe54fd7a25a14a6133cf4e800a" style="width: 100.0%; height: 100.0%;">Bayonne: 50 students</div>`)[0];
+                popup_5100ac19b083b4f35b47a41d56133c37.setContent(html_ccd786fe54fd7a25a14a6133cf4e800a);
+            
+        
+
+        marker_1194e78f7774937211b8087bcab0a6c1.bindPopup(popup_5100ac19b083b4f35b47a41d56133c37)
+        ;
+
+        
+    
+    
+            var marker_b16bfb2b19b4b0a8d0e172e39e04c900 = L.marker(
+                [32.814, -96.9489],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_171e9aa13bd5af60bbae7cbedf56f773 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5917eeb2569578d9ef02def70e389bde = $(`<div id="html_5917eeb2569578d9ef02def70e389bde" style="width: 100.0%; height: 100.0%;">Irving: 28 students</div>`)[0];
+                popup_171e9aa13bd5af60bbae7cbedf56f773.setContent(html_5917eeb2569578d9ef02def70e389bde);
+            
+        
+
+        marker_b16bfb2b19b4b0a8d0e172e39e04c900.bindPopup(popup_171e9aa13bd5af60bbae7cbedf56f773)
+        ;
+
+        
+    
+    
+            var marker_fab9ffa3ff8b5213e1b988f56da5964d = L.marker(
+                [42.9764, -88.1084],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_e022bb0a3cc376dfd8fb1e15431d9420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e9ed7a5780a0d5cef37c5e15dc0c4b1 = $(`<div id="html_2e9ed7a5780a0d5cef37c5e15dc0c4b1" style="width: 100.0%; height: 100.0%;">New Berlin: 21 students</div>`)[0];
+                popup_e022bb0a3cc376dfd8fb1e15431d9420.setContent(html_2e9ed7a5780a0d5cef37c5e15dc0c4b1);
+            
+        
+
+        marker_fab9ffa3ff8b5213e1b988f56da5964d.bindPopup(popup_e022bb0a3cc376dfd8fb1e15431d9420)
+        ;
+
+        
+    
+    
+            var marker_52163ff2eece7ecbbb1b790645372891 = L.marker(
+                [40.8448, -73.8648],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_aba5efcd88be98e4d4cefc3a645d3ffe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa86fcf65c53196e1e9dec901a8f217 = $(`<div id="html_afa86fcf65c53196e1e9dec901a8f217" style="width: 100.0%; height: 100.0%;">Bronx: 19 students</div>`)[0];
+                popup_aba5efcd88be98e4d4cefc3a645d3ffe.setContent(html_afa86fcf65c53196e1e9dec901a8f217);
+            
+        
+
+        marker_52163ff2eece7ecbbb1b790645372891.bindPopup(popup_aba5efcd88be98e4d4cefc3a645d3ffe)
+        ;
+
+        
+    
+    
+            var marker_c26a5f1db1c9cae186f08dcda83acf88 = L.marker(
+                [33.4942, -111.9261],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_ebbc4f9383eee77f48ad5dfa0c105dff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7148517ffb3002e2e43d49934d11982 = $(`<div id="html_e7148517ffb3002e2e43d49934d11982" style="width: 100.0%; height: 100.0%;">Scottsdale: 19 students</div>`)[0];
+                popup_ebbc4f9383eee77f48ad5dfa0c105dff.setContent(html_e7148517ffb3002e2e43d49934d11982);
+            
+        
+
+        marker_c26a5f1db1c9cae186f08dcda83acf88.bindPopup(popup_ebbc4f9383eee77f48ad5dfa0c105dff)
+        ;
+
+        
+    
+    
+            var marker_1f62df6012843f2f0a45517d6c899130 = L.marker(
+                [45.4215, -75.6972],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_8a305573a00546134537d7c18c238ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31aac520c38af580bc4612d0f647538b = $(`<div id="html_31aac520c38af580bc4612d0f647538b" style="width: 100.0%; height: 100.0%;">Ottawa: 18 students</div>`)[0];
+                popup_8a305573a00546134537d7c18c238ac7.setContent(html_31aac520c38af580bc4612d0f647538b);
+            
+        
+
+        marker_1f62df6012843f2f0a45517d6c899130.bindPopup(popup_8a305573a00546134537d7c18c238ac7)
+        ;
+
+        
+    
+    
+            var marker_4c73d14ead8b8d9a87e22ec5d8797b82 = L.marker(
+                [40.7634, -73.8697],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_85bd6632476878e9c42d0a373d07d290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a5da54ba38166d3f81927f57a4119c2 = $(`<div id="html_0a5da54ba38166d3f81927f57a4119c2" style="width: 100.0%; height: 100.0%;">East Elmhurst: 16 students</div>`)[0];
+                popup_85bd6632476878e9c42d0a373d07d290.setContent(html_0a5da54ba38166d3f81927f57a4119c2);
+            
+        
+
+        marker_4c73d14ead8b8d9a87e22ec5d8797b82.bindPopup(popup_85bd6632476878e9c42d0a373d07d290)
+        ;
+
+        
+    
+    
+            var marker_6a5b3b8148a90f44db39ff714b9ca553 = L.marker(
+                [49.1913, -122.849],
+                {}
+            ).addTo(map_a152115c7b64b7f606824a3a2d5b6f26);
+        
+    
+        var popup_22263ebb5feefcac93547a578337a564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20053d1cce8c111e2eb63ea7ff644adf = $(`<div id="html_20053d1cce8c111e2eb63ea7ff644adf" style="width: 100.0%; height: 100.0%;">Surrey: 16 students</div>`)[0];
+                popup_22263ebb5feefcac93547a578337a564.setContent(html_20053d1cce8c111e2eb63ea7ff644adf);
+            
+        
+
+        marker_6a5b3b8148a90f44db39ff714b9ca553.bindPopup(popup_22263ebb5feefcac93547a578337a564)
+        ;
+
+        
+    
+</script>
+</html>
